@@ -1,0 +1,1387 @@
+[
+ {
+  "id": "x01",
+  "section": "obj",
+  "marks": 3,
+  "lesson": "1-1",
+  "level": "easy",
+  "type": "mcq",
+  "q": "Which development most directly caused the explosive spread of mobile Internet use in the 2000s?",
+  "options": [
+   {
+    "t": "Vacuum-tube computers"
+   },
+   {
+    "t": "Smartphones",
+    "c": 1
+   },
+   {
+    "t": "Mechanical calculators"
+   },
+   {
+    "t": "Quantum computers"
+   }
+  ],
+  "expl": "Smartphones put the Internet in everyone's pocket during the 2000s."
+ },
+ {
+  "id": "x02",
+  "section": "obj",
+  "marks": 3,
+  "lesson": "2-1",
+  "level": "easy",
+  "type": "mcq",
+  "q": "Which protocol adds TLS encryption to HTTP?",
+  "options": [
+   {
+    "t": "FTP"
+   },
+   {
+    "t": "DNS"
+   },
+   {
+    "t": "HTTPS",
+    "c": 1
+   },
+   {
+    "t": "SMTP"
+   }
+  ],
+  "expl": "HTTPS is HTTP with TLS encryption added."
+ },
+ {
+  "id": "x31",
+  "section": "obj",
+  "marks": 3,
+  "lesson": "2-1",
+  "level": "easy",
+  "type": "mcq",
+  "q": "Which one is an example of the factor 'something you are'?",
+  "options": [
+   {
+    "t": "A fingerprint",
+    "c": 1
+   },
+   {
+    "t": "A password"
+   },
+   {
+    "t": "A security question"
+   },
+   {
+    "t": "A one-time code on a phone"
+   }
+  ],
+  "expl": "Biometrics such as a fingerprint or a face are 'something you are'."
+ },
+ {
+  "id": "x03",
+  "section": "obj",
+  "marks": 4,
+  "lesson": "1-2",
+  "level": "easy",
+  "type": "mcq",
+  "q": "Which order goes from the widest concept to the narrowest?",
+  "options": [
+   {
+    "t": "Artificial intelligence, machine learning, deep learning, generative AI",
+    "c": 1
+   },
+   {
+    "t": "Deep learning, machine learning, artificial intelligence, generative AI"
+   },
+   {
+    "t": "Machine learning, artificial intelligence, generative AI, deep learning"
+   },
+   {
+    "t": "Generative AI, deep learning, artificial intelligence, machine learning"
+   }
+  ],
+  "expl": "AI contains machine learning, which contains deep learning, and generative AI is built on deep learning."
+ },
+ {
+  "id": "x04",
+  "section": "obj",
+  "marks": 4,
+  "lesson": "2-2",
+  "level": "easy",
+  "type": "mcq",
+  "q": "Which of the following is NOT an appropriate use of a VPN?",
+  "options": [
+   {
+    "t": "Connecting safely from home to an organisation's network"
+   },
+   {
+    "t": "Encrypting communication on public Wi-Fi"
+   },
+   {
+    "t": "Connecting two offices in different locations safely"
+   },
+   {
+    "t": "Automatically deleting files infected with viruses",
+    "c": 1
+   }
+  ],
+  "expl": "Deleting infected files is endpoint antivirus work, not a VPN function."
+ },
+ {
+  "id": "x05",
+  "section": "obj",
+  "marks": 4,
+  "lesson": "2-3",
+  "level": "medium",
+  "type": "mcq",
+  "q": "Which option gives the six stages of incident response in the correct order?",
+  "options": [
+   {
+    "t": "Detection, eradication, containment, recovery, preparation, prevention"
+   },
+   {
+    "t": "Containment, detection, eradication, preparation, recovery, prevention"
+   },
+   {
+    "t": "Preparation, containment, detection, recovery, eradication, prevention"
+   },
+   {
+    "t": "Preparation, detection, containment, eradication, recovery, prevention of recurrence",
+    "c": 1
+   }
+  ],
+  "expl": "Prepare, detect, contain, eradicate, recover, then prevent recurrence."
+ },
+ {
+  "id": "x06",
+  "section": "obj",
+  "marks": 5,
+  "lesson": "1-1",
+  "level": "medium",
+  "type": "mcq",
+  "q": "What does Moore's Law describe, and why is it reaching a limit?",
+  "options": [
+   {
+    "t": "Transistors on a chip roughly double every two years, limited by physical effects such as quantum tunneling",
+    "c": 1
+   },
+   {
+    "t": "Internet speed doubles every year, limited by cable length"
+   },
+   {
+    "t": "Computer prices double every two years, limited by demand"
+   },
+   {
+    "t": "Storage doubles every year, limited by disk size"
+   }
+  ],
+  "expl": "Miniaturisation is approaching a physical limit where leakage and quantum tunneling make further shrinking impractical."
+ },
+ {
+  "id": "x07",
+  "section": "obj",
+  "marks": 5,
+  "lesson": "2-1",
+  "level": "medium",
+  "type": "mcq",
+  "q": "During an HTTPS connection, how does the browser send the common key safely to the server?",
+  "options": [
+   {
+    "t": "It sends it in plain text because the network is trusted"
+   },
+   {
+    "t": "It encrypts it with the server's public key, and the server decrypts it with its private key",
+    "c": 1
+   },
+   {
+    "t": "It encrypts it with its own private key"
+   },
+   {
+    "t": "The certificate authority delivers the key for both sides"
+   }
+  ],
+  "expl": "A public key locks and only the matching private key unlocks, so only the real server obtains the common key."
+ },
+ {
+  "id": "x08",
+  "section": "obj",
+  "marks": 5,
+  "lesson": "1-3",
+  "level": "medium",
+  "type": "mcq",
+  "q": "An autonomous vehicle must react to an obstacle in milliseconds. Sending every camera frame to a distant cloud first is",
+  "options": [
+   {
+    "t": "fine, because cloud servers are more powerful"
+   },
+   {
+    "t": "fine, because network delay never matters for video"
+   },
+   {
+    "t": "unsuitable, because the round trip adds delay; edge computing processes urgent data on the device",
+    "c": 1
+   },
+   {
+    "t": "unsuitable, because clouds cannot store video"
+   }
+  ],
+  "expl": "Safety-critical decisions need edge computing; the cloud adds latency."
+ },
+ {
+  "id": "x09",
+  "section": "obj",
+  "marks": 5,
+  "lesson": "2-2",
+  "level": "medium",
+  "type": "mcq",
+  "q": "What is the most appropriate reason for placing a web server in a DMZ?",
+  "options": [
+   {
+    "t": "To make the website load faster"
+   },
+   {
+    "t": "To expose every server to the Internet"
+   },
+   {
+    "t": "To detect and remove viruses automatically"
+   },
+   {
+    "t": "To prevent damage to the internal network if the public server is attacked",
+    "c": 1
+   }
+  ],
+  "expl": "The DMZ separates exposed servers so a compromise cannot reach internal systems."
+ },
+ {
+  "id": "x33",
+  "section": "obj",
+  "marks": 5,
+  "lesson": "2-1",
+  "level": "medium",
+  "type": "mcq",
+  "q": "What does a digital certificate issued by a certificate authority mainly prove?",
+  "options": [
+   {
+    "t": "That the website belongs to the organisation it claims to be, and that its public key is genuine",
+    "c": 1
+   },
+   {
+    "t": "That the website has no software weaknesses"
+   },
+   {
+    "t": "That the user's password is strong enough"
+   },
+   {
+    "t": "That the data was never copied by anyone"
+   }
+  ],
+  "expl": "The CA binds an identity to a public key, which is what stops a convincing fake site."
+ },
+ {
+  "id": "x34",
+  "section": "obj",
+  "marks": 5,
+  "lesson": "2-3",
+  "level": "medium",
+  "type": "mcq",
+  "q": "A company lists two risks: a data leak with large impact and medium likelihood, and a short printer failure with small impact and high likelihood. Which should be handled first and why?",
+  "options": [
+   {
+    "t": "The printer failure, because it is more likely"
+   },
+   {
+    "t": "The data leak, because risk size is impact multiplied by likelihood and its product is far larger",
+    "c": 1
+   },
+   {
+    "t": "Both at the same time, because likelihood is all that matters"
+   },
+   {
+    "t": "Neither, because only certain events count as risks"
+   }
+  ],
+  "expl": "Risk size = impact × likelihood, so a large impact with medium likelihood outranks a tiny impact."
+ },
+ {
+  "id": "x10",
+  "section": "obj",
+  "marks": 5,
+  "lesson": "1-1",
+  "level": "hard",
+  "type": "match",
+  "q": "Match each period with what it introduced:",
+  "rows": [
+   {
+    "id": "a",
+    "t": "1940s to 1960s"
+   },
+   {
+    "id": "b",
+    "t": "1970s to 1980s"
+   },
+   {
+    "id": "c",
+    "t": "1990s"
+   },
+   {
+    "id": "d",
+    "t": "2010s onward"
+   }
+  ],
+  "choices": [
+   {
+    "id": "A",
+    "t": "Spread of personal computers"
+   },
+   {
+    "id": "B",
+    "t": "Birth of the computer, used for military and scientific computation"
+   },
+   {
+    "id": "C",
+    "t": "Spread of cloud computing and large-scale data analysis"
+   },
+   {
+    "id": "D",
+    "t": "Commercialization of the Internet and the Web"
+   }
+  ],
+  "answer": {
+   "a": "B",
+   "b": "A",
+   "c": "D",
+   "d": "C"
+  },
+  "expl": "Computers, then PCs, then the Internet, then the cloud."
+ },
+ {
+  "id": "x11",
+  "section": "obj",
+  "marks": 5,
+  "lesson": "2-1",
+  "level": "hard",
+  "type": "match",
+  "q": "Match each threat with the technology that addresses it:",
+  "rows": [
+   {
+    "id": "a",
+    "t": "Someone intercepts the traffic and reads it"
+   },
+   {
+    "id": "b",
+    "t": "Data is altered on the way, and the sender later denies sending it"
+   },
+   {
+    "id": "c",
+    "t": "A user is led to a fake copy of a website"
+   },
+   {
+    "id": "d",
+    "t": "A leaked password is used to log in"
+   }
+  ],
+  "choices": [
+   {
+    "id": "A",
+    "t": "Digital certificate"
+   },
+   {
+    "id": "B",
+    "t": "Encryption"
+   },
+   {
+    "id": "C",
+    "t": "Multi-factor authentication"
+   },
+   {
+    "id": "D",
+    "t": "Digital signature"
+   }
+  ],
+  "answer": {
+   "a": "B",
+   "b": "D",
+   "c": "A",
+   "d": "C"
+  },
+  "expl": "Encryption stops reading, signatures detect tampering and give non-repudiation, certificates prove identity, MFA blocks stolen-password logins."
+ },
+ {
+  "id": "x12",
+  "section": "obj",
+  "marks": 6,
+  "lesson": "1-4",
+  "level": "hard",
+  "type": "match",
+  "q": "Match each situation with the ethical principle it involves:",
+  "rows": [
+   {
+    "id": "a",
+    "t": "A hiring model scores one group lower despite similar qualifications"
+   },
+   {
+    "id": "b",
+    "t": "A rejected applicant cannot find out why"
+   },
+   {
+    "id": "c",
+    "t": "Records are kept far longer than the stated purpose needs"
+   },
+   {
+    "id": "d",
+    "t": "Nobody can say who is answerable for a wrong automated decision"
+   }
+  ],
+  "choices": [
+   {
+    "id": "A",
+    "t": "Privacy protection"
+   },
+   {
+    "id": "B",
+    "t": "Accountability"
+   },
+   {
+    "id": "C",
+    "t": "Fairness"
+   },
+   {
+    "id": "D",
+    "t": "Transparency"
+   }
+  ],
+  "answer": {
+   "a": "C",
+   "b": "D",
+   "c": "A",
+   "d": "B"
+  },
+  "expl": "Fairness, transparency, privacy protection and accountability are the four principles."
+ },
+ {
+  "id": "x13",
+  "section": "obj",
+  "marks": 6,
+  "lesson": "2-2",
+  "level": "hard",
+  "type": "match",
+  "q": "Match each measure with its layer of defense in depth:",
+  "rows": [
+   {
+    "id": "a",
+    "t": "Blocking unwanted traffic with a firewall"
+   },
+   {
+    "id": "b",
+    "t": "Encrypting the connection with a VPN"
+   },
+   {
+    "id": "c",
+    "t": "Separating public servers with a DMZ"
+   },
+   {
+    "id": "d",
+    "t": "Antivirus and operating-system updates"
+   }
+  ],
+  "choices": [
+   {
+    "id": "A",
+    "t": "Layer 4, endpoints"
+   },
+   {
+    "id": "B",
+    "t": "Layer 1, network entry"
+   },
+   {
+    "id": "C",
+    "t": "Layer 3, server placement"
+   },
+   {
+    "id": "D",
+    "t": "Layer 2, communication path"
+   }
+  ],
+  "answer": {
+   "a": "B",
+   "b": "D",
+   "c": "C",
+   "d": "A"
+  },
+  "expl": "Entry, path, placement, endpoints."
+ },
+ {
+  "id": "x35",
+  "section": "obj",
+  "marks": 6,
+  "lesson": "comp",
+  "level": "hard",
+  "type": "match",
+  "q": "Match each term with its correct description:",
+  "rows": [
+   {
+    "id": "a",
+    "t": "Cloud computing"
+   },
+   {
+    "id": "b",
+    "t": "Edge computing"
+   },
+   {
+    "id": "c",
+    "t": "Common-key cryptography"
+   },
+   {
+    "id": "d",
+    "t": "Public-key cryptography"
+   }
+  ],
+  "choices": [
+   {
+    "id": "A",
+    "t": "Processing on or near the device that produced the data, for urgent decisions"
+   },
+   {
+    "id": "B",
+    "t": "One key locks and a different paired key unlocks, used to share a secret safely"
+   },
+   {
+    "id": "C",
+    "t": "Processing and storage on remote servers, for large-scale work"
+   },
+   {
+    "id": "D",
+    "t": "The same key encrypts and decrypts, and it is fast"
+   }
+  ],
+  "answer": {
+   "a": "C",
+   "b": "A",
+   "c": "D",
+   "d": "B"
+  },
+  "expl": "Cloud is remote and large, edge is local and fast, common-key is one shared fast key, public-key is a key pair."
+ },
+ {
+  "id": "x14",
+  "section": "obj",
+  "marks": 7,
+  "lesson": "1-2",
+  "level": "extreme",
+  "type": "mcq",
+  "q": "A generative AI produces a fluent paragraph containing an invented statistic and a source that does not exist. What does this show?",
+  "options": [
+   {
+    "t": "A hardware fault that a faster processor would fix"
+   },
+   {
+    "t": "An encryption failure during training"
+   },
+   {
+    "t": "Hallucination: fluent output is not proof of accuracy, so facts must be verified",
+    "c": 1
+   },
+   {
+    "t": "Proof that generative AI can never be used for written work"
+   }
+  ],
+  "expl": "Generative models predict plausible text, so they can be confidently wrong."
+ },
+ {
+  "id": "x15",
+  "section": "obj",
+  "marks": 7,
+  "lesson": "comp",
+  "level": "extreme",
+  "type": "mcq",
+  "q": "A company has HTTPS, a firewall, a VPN and antivirus, but its public web server shares a network segment with the customer database and staff use passwords only. An attacker phishes one password and exploits the website. What is the most accurate assessment?",
+  "options": [
+   {
+    "t": "The company is safe because four measures are already in place"
+   },
+   {
+    "t": "Two layers are missing: multi-factor authentication for logins and a DMZ for server placement, so one stolen password and one exploited server reach the internal data",
+    "c": 1
+   },
+   {
+    "t": "The firewall will detect and remove the attack automatically"
+   },
+   {
+    "t": "HTTPS encryption prevents any stolen password from being used"
+   }
+  ],
+  "expl": "Encryption protects data in transit only; the identity layer and the placement layer were both absent."
+ },
+ {
+  "id": "x36",
+  "section": "obj",
+  "marks": 7,
+  "lesson": "comp",
+  "level": "extreme",
+  "type": "mcq",
+  "q": "A bank uses an AI model that approves loans, stores the records in the cloud, and lets analysts connect from home over a VPN. One analyst's password leaks. Which statement is most accurate?",
+  "options": [
+   {
+    "t": "The VPN encrypts the connection, so a leaked password causes no harm"
+   },
+   {
+    "t": "The AI model will notice the intruder because it learns from data"
+   },
+   {
+    "t": "Encryption protects the data in transit, but it does not verify identity, so multi-factor authentication and zero trust checks are what stop the stolen password from being used",
+    "c": 1
+   },
+   {
+    "t": "Moving the records out of the cloud would solve the problem completely"
+   }
+  ],
+  "expl": "A VPN protects the path, not the identity; the missing layer is authentication."
+ },
+ {
+  "id": "x16",
+  "section": "ess",
+  "marks": 4,
+  "lesson": "1-1",
+  "level": "medium",
+  "type": "theory",
+  "q": "In your own words, what is cashless payment? Give one example of where it is used.",
+  "answer": "Cashless payment is a way of paying for goods or services without using physical cash, by using electronic money, a card, a QR code or a payment application on a phone, so the money moves electronically from the buyer's account to the seller. An example is paying for breakfast or for a bus ticket by scanning a QR code with a phone application, or paying for an online order by card instead of cash on delivery.",
+  "keys": [
+   [
+    "without cash",
+    "no cash",
+    "instead of cash",
+    "electronic money"
+   ],
+   [
+    "card",
+    "qr",
+    "phone",
+    "app",
+    "application",
+    "online"
+   ],
+   [
+    "example",
+    "pay",
+    "shop",
+    "ticket",
+    "order"
+   ]
+  ]
+ },
+ {
+  "id": "x17",
+  "section": "ess",
+  "marks": 4,
+  "lesson": "2-1",
+  "level": "medium",
+  "type": "theory",
+  "q": "What is a firewall, and what does it do? Write two or three simple sentences.",
+  "answer": "A firewall is a system placed at the entry and exit point of a network. It checks the communication that tries to pass and allows or denies it according to rules that were set in advance. For example, it can allow visitors to reach the web server while denying any direct connection from the Internet to the database server, so unwanted traffic never gets in.",
+  "keys": [
+   [
+    "entry",
+    "boundary",
+    "edge",
+    "between the network"
+   ],
+   [
+    "allow",
+    "deny",
+    "block",
+    "permit"
+   ],
+   [
+    "rules",
+    "set in advance",
+    "preset",
+    "policy"
+   ]
+  ]
+ },
+ {
+  "id": "x18",
+  "section": "ess",
+  "marks": 4,
+  "lesson": "2-3",
+  "level": "medium",
+  "type": "theory",
+  "q": "What is a security incident? Give two examples.",
+  "answer": "A security incident is a situation in which actual damage happens because of an information security problem, so something has really gone wrong and not just a possible risk. Two examples are an information leak, where personal or confidential data is exposed to the outside, and a service outage, where a website or system becomes unavailable because of an attack on the server. Data tampering, where data inside a system is changed without permission, is a third example.",
+  "keys": [
+   [
+    "actual damage",
+    "real damage",
+    "damage occurs",
+    "damage happens"
+   ],
+   [
+    "leak",
+    "leaked",
+    "information leak"
+   ],
+   [
+    "outage",
+    "unavailable",
+    "tampering",
+    "altered",
+    "ransomware",
+    "encrypted"
+   ]
+  ]
+ },
+ {
+  "id": "x22",
+  "section": "ess",
+  "marks": 4,
+  "lesson": "1-3",
+  "level": "medium",
+  "type": "theory",
+  "q": "Choose one industry and explain how AI is used in it and what benefit it brings.",
+  "answer": "In healthcare, AI analyses medical images such as CT scans and highlights areas that may show disease, which supports earlier and more consistent diagnosis and helps staff decide which patients to see first, while the doctor still makes the final decision. Other acceptable answers are agriculture, where image analysis detects crop pests so treatment is targeted and fewer chemicals are used; manufacturing, where AI inspects products and finds defects that a tired human eye may miss, raising quality and reducing waste; and logistics, where AI plans delivery routes and cuts travel time, fuel and cost.",
+  "keys": [
+   [
+    "healthcare",
+    "medical",
+    "agricultur",
+    "manufactur",
+    "logistic"
+   ],
+   [
+    "ct",
+    "image",
+    "pest",
+    "defect",
+    "route",
+    "inspect",
+    "diagnos"
+   ],
+   [
+    "benefit",
+    "earlier",
+    "faster",
+    "quality",
+    "reduce",
+    "cost",
+    "accurate",
+    "consistent"
+   ]
+  ]
+ },
+ {
+  "id": "x37",
+  "section": "ess",
+  "marks": 4,
+  "lesson": "1-1",
+  "level": "medium",
+  "type": "theory",
+  "q": "What is cloud computing? Say one good thing about it in simple words.",
+  "answer": "Cloud computing means that the processing and the storage happen on strong servers owned by a provider and reached over the Internet, instead of on your own computer or on servers inside your building. A good thing about it is that you can use as much power or space as you need and pay only for what you use, so a small school or company can run large services without buying and maintaining expensive machines, and the files can be reached from any place with an Internet connection.",
+  "keys": [
+   [
+    "remote",
+    "internet",
+    "servers",
+    "provider",
+    "not on your own"
+   ],
+   [
+    "storage",
+    "processing",
+    "compute"
+   ],
+   [
+    "benefit",
+    "pay",
+    "cheap",
+    "scale",
+    "as much",
+    "anywhere",
+    "no hardware",
+    "maintain"
+   ]
+  ]
+ },
+ {
+  "id": "x19",
+  "section": "ess",
+  "marks": 5,
+  "lesson": "1-2",
+  "level": "medium",
+  "type": "theory",
+  "q": "What is the difference between a system that follows written rules and a system that learns from data? Give one example of each.",
+  "answer": "A rule-based system follows conditions that a person wrote in advance, so it only handles the cases those rules describe and it must be edited by hand when something new appears; an example is a form that rejects a password shorter than eight characters. A system that learns from data studies many examples, finds patterns in them, and can then handle new cases it has never seen; an example is a model trained on thousands of photographs that recognises a cat in a picture it was never shown before. The first is predictable and easy to explain, while the second is more flexible but depends completely on the quality of the data it learned from.",
+  "keys": [
+   [
+    "rule",
+    "written in advance",
+    "conditions",
+    "programmer"
+   ],
+   [
+    "learn",
+    "pattern",
+    "data",
+    "examples"
+   ],
+   [
+    "new case",
+    "unseen",
+    "generalis",
+    "flexible"
+   ],
+   [
+    "example"
+   ]
+  ]
+ },
+ {
+  "id": "x20",
+  "section": "ess",
+  "marks": 5,
+  "lesson": "2-1",
+  "level": "medium",
+  "type": "theory",
+  "q": "What does multi-factor authentication mean? Give one good example and one example that is not really multi-factor.",
+  "answer": "Multi-factor authentication means proving who you are using two or more factors of different kinds, chosen from something you know, something you have and something you are. A good example is a password together with a one-time code sent to a registered phone, because the password is knowledge and the phone is possession, so a thief who learns the password still cannot log in. An example that is not really multi-factor is a password together with a secret question, because both of them are knowledge, so one leak or one guess can defeat both steps.",
+  "keys": [
+   [
+    "two or more",
+    "two factors",
+    "different kinds",
+    "different factors"
+   ],
+   [
+    "knowledge",
+    "possession",
+    "biometric"
+   ],
+   [
+    "good example",
+    "password",
+    "code",
+    "phone",
+    "fingerprint",
+    "sms"
+   ],
+   [
+    "not",
+    "same factor",
+    "both knowledge",
+    "secret question",
+    "two passwords"
+   ]
+  ]
+ },
+ {
+  "id": "x21",
+  "section": "ess",
+  "marks": 5,
+  "lesson": "2-2",
+  "level": "medium",
+  "type": "theory",
+  "q": "Why is it safer to put a public website on a DMZ instead of inside the internal network? Explain simply.",
+  "answer": "A public website has to accept connections from anyone on the Internet, so it is the part most likely to be attacked successfully. If that server sits inside the internal network, an attacker who takes control of it is already in the trusted area and can move on to the database and the staff computers. If the server sits in a DMZ, it is separated by firewall rules, so the attacker only gains the DMZ and cannot reach the internal data. The damage is contained in the public area, which is exactly why the DMZ exists.",
+  "keys": [
+   [
+    "public",
+    "anyone",
+    "internet",
+    "exposed",
+    "most likely"
+   ],
+   [
+    "inside",
+    "internal network",
+    "trusted"
+   ],
+   [
+    "dmz",
+    "separate",
+    "isolat"
+   ],
+   [
+    "contain",
+    "cannot reach",
+    "limited",
+    "database"
+   ]
+  ]
+ },
+ {
+  "id": "x38",
+  "section": "ess",
+  "marks": 5,
+  "lesson": "2-1",
+  "level": "medium",
+  "type": "theory",
+  "q": "What is a digital signature, and what does it tell the person who receives the message? Keep it simple.",
+  "answer": "A digital signature is a small piece of data that the sender creates with a private key that only the sender has, and the receiver checks it with the matching public key. It tells the receiver two things. First, that the message really came from that sender, because nobody else could have produced the signature. Second, that the message was not changed on the way, because any change makes the check fail. It also means the sender cannot later deny having sent it, which is called non-repudiation, and this is why signatures are used for contracts and official documents.",
+  "keys": [
+   [
+    "private key",
+    "signer",
+    "sender creates"
+   ],
+   [
+    "public key",
+    "verify",
+    "check"
+   ],
+   [
+    "came from",
+    "identity",
+    "authentic",
+    "really the sender"
+   ],
+   [
+    "not changed",
+    "tamper",
+    "altered",
+    "integrity"
+   ],
+   [
+    "deny",
+    "non-repudiation"
+   ]
+  ]
+ },
+ {
+  "id": "x39",
+  "section": "ess",
+  "marks": 5,
+  "lesson": "2-2",
+  "level": "medium",
+  "type": "theory",
+  "q": "What does defense in depth mean? Give two layers as examples and say why one layer alone is not enough.",
+  "answer": "Defense in depth means protecting a system with several different layers instead of relying on one wall, so that if an attacker gets past one of them the next one still stands. For example, a firewall at the entry of the network blocks unwanted traffic, and an encrypted VPN protects the communication path so that data cannot be read even if it is captured; other layers are separating public servers in a DMZ and keeping endpoints protected with antivirus and updates. One layer is not enough because every measure has a gap: a firewall cannot see inside encrypted traffic, encryption does not check who the user is, and a user can still be tricked into opening an infected file, so the layers cover each other's weaknesses.",
+  "keys": [
+   [
+    "several",
+    "multiple",
+    "layers",
+    "more than one"
+   ],
+   [
+    "firewall",
+    "vpn",
+    "dmz",
+    "antivirus",
+    "update",
+    "encrypt"
+   ],
+   [
+    "if one fails",
+    "next",
+    "still",
+    "gets past"
+   ],
+   [
+    "gap",
+    "not enough",
+    "weakness",
+    "cannot"
+   ]
+  ]
+ },
+ {
+  "id": "x23",
+  "section": "ess",
+  "marks": 5,
+  "lesson": "2-3",
+  "level": "hard",
+  "type": "theory",
+  "q": "Why must containment come before eradication? Use a computer infected by malware as your example.",
+  "answer": "Containment means stopping the damage from spreading, and eradication means removing the cause, and removing the cause takes time because the team must find the malware, see which machines are affected and clean them. While that work is going on, an infected computer that is still connected keeps infecting other computers and encrypting shared files, so the problem keeps growing. By disconnecting the infected computer from the network first, the size of the problem is frozen, and the eradication that follows deals with a known and fixed set of machines instead of a growing one.",
+  "keys": [
+   [
+    "contain",
+    "stop",
+    "limit"
+   ],
+   [
+    "spread",
+    "spreading",
+    "other computers",
+    "shared"
+   ],
+   [
+    "eradicat",
+    "remove the cause",
+    "clean",
+    "takes time",
+    "investigat"
+   ],
+   [
+    "disconnect",
+    "isolate",
+    "network"
+   ]
+  ]
+ },
+ {
+  "id": "x24",
+  "section": "ess",
+  "marks": 5,
+  "lesson": "2-3",
+  "level": "hard",
+  "type": "theory",
+  "q": "A school restores its files from backup on the same morning it is attacked, and two days later the files are encrypted again. What mistake did it make, and what should it have done?",
+  "answer": "The school performed recovery before eradication, so it brought the systems back while the cause was still present. The malware, or the stolen account or the unpatched weakness that let the attacker in, was never removed, so the restored files were attacked again as soon as they were available. The school should have contained the incident first by disconnecting the affected machines, then eradicated the cause by removing the malware and closing the way in, then recovered from tested backups, and finally analysed the cause and added measures such as multi-factor authentication and regular patching so the same incident does not return.",
+  "keys": [
+   [
+    "recovery before eradication",
+    "restored before",
+    "before removing the cause",
+    "did not remove"
+   ],
+   [
+    "cause",
+    "malware",
+    "vulnerability",
+    "account still"
+   ],
+   [
+    "contain",
+    "disconnect",
+    "isolate"
+   ],
+   [
+    "eradicat",
+    "remove",
+    "patch",
+    "then recover"
+   ],
+   [
+    "prevent",
+    "recurrence",
+    "mfa",
+    "backup",
+    "training"
+   ]
+  ]
+ },
+ {
+  "id": "x25",
+  "section": "ess",
+  "marks": 5,
+  "lesson": "2-3",
+  "level": "hard",
+  "type": "theory",
+  "q": "How does a team decide which risk to deal with first? Explain the idea and give a short example.",
+  "answer": "The team measures the size of each risk, and the size of a risk is its impact multiplied by its likelihood, where impact is how much damage happens if it occurs and likelihood is how probable it is. Risks that are high in both are dealt with first, because no team can fix everything at the same time and the biggest danger should not wait. For example, another ransomware attack on a school that has already been attacked has large impact and high likelihood, roughly three times three, so it comes before a brief power cut that has small impact even if it is fairly likely, roughly one times three.",
+  "keys": [
+   [
+    "impact"
+   ],
+   [
+    "likelihood",
+    "probability",
+    "chance"
+   ],
+   [
+    "multipl",
+    "times",
+    "size of the risk",
+    "impact x",
+    "impact ×"
+   ],
+   [
+    "first",
+    "priority",
+    "both high"
+   ],
+   [
+    "example"
+   ]
+  ]
+ },
+ {
+  "id": "x26",
+  "section": "ess",
+  "marks": 5,
+  "lesson": "1-4",
+  "level": "hard",
+  "type": "theory",
+  "q": "Why can an AI system be unfair even when the program itself is written correctly? Say what should be done about it.",
+  "answer": "A machine learning system takes its behaviour from the data it was trained on, so if the data records past decisions that were unfair, or if a group is barely represented in it, the system learns those weaknesses and repeats them even though the code contains no mistake. Removing the sensitive field is not enough on its own, because other values can act as substitutes for it. What should be done is to test the results separately for each group to see where the system performs worse, improve and balance the training data, correct or change the model where it is unfair, explain the reasons behind decisions so problems can be noticed, and keep a human review for decisions that affect people.",
+  "keys": [
+   [
+    "data",
+    "training data"
+   ],
+   [
+    "past",
+    "historical",
+    "unfair",
+    "bias",
+    "underrepresent",
+    "not represent"
+   ],
+   [
+    "test",
+    "check",
+    "compare",
+    "across groups",
+    "measure"
+   ],
+   [
+    "improve",
+    "balance",
+    "correct",
+    "human",
+    "explain",
+    "review"
+   ]
+  ]
+ },
+ {
+  "id": "x40",
+  "section": "ess",
+  "marks": 5,
+  "lesson": "1-3",
+  "level": "hard",
+  "type": "theory",
+  "q": "Give two benefits and two worries about using AI in everyday services such as shopping or transport. Write simply.",
+  "answer": "Two benefits are speed and personal fit: a recommendation system can search a huge catalogue in a moment and suggest what matches a person's history, and route planning can pick a faster road and save time, fuel and cost. Two worries are, first, privacy, because these services work by collecting a lot of personal data about what people buy, where they go and when, and this data can be kept too long, shared or leaked; and second, unfairness and over-dependence, because a model trained on past data can give worse results to a group that is poorly represented, and people may accept the suggestion without thinking even when it is wrong. Good practice is to tell users what data is collected, keep only what is needed, test the results across different groups, and keep a human review for decisions that matter.",
+  "keys": [
+   [
+    "benefit",
+    "fast",
+    "quick",
+    "personal",
+    "recommend",
+    "save",
+    "cost",
+    "time"
+   ],
+   [
+    "privacy",
+    "personal data",
+    "collect",
+    "leak"
+   ],
+   [
+    "unfair",
+    "bias",
+    "group",
+    "wrong",
+    "depend",
+    "trust too much"
+   ],
+   [
+    "example"
+   ]
+  ]
+ },
+ {
+  "id": "x27",
+  "section": "ess",
+  "marks": 6,
+  "lesson": "1-2",
+  "level": "hard",
+  "type": "theory",
+  "q": "Explain the link between artificial intelligence, machine learning, deep learning and generative AI. Give one example for each of the last three.",
+  "answer": "Artificial intelligence is the widest term and covers any system that performs tasks that would normally need human intelligence, including systems built from written rules. Machine learning is a part of AI in which the system finds patterns in data instead of being given rules, for example predicting which customers are likely to stop a subscription. Deep learning is a part of machine learning that uses neural networks with many layers, where each layer picks out more complex features, for example recognising objects in photographs or turning speech into text. Generative AI is built on deep learning and produces new content such as text, images or code, for example drafting a summary of a long article. Each one is contained inside the one before it, so all generative AI is deep learning, all deep learning is machine learning, and all of them are artificial intelligence.",
+  "keys": [
+   [
+    "artificial intelligence",
+    "widest",
+    "broadest"
+   ],
+   [
+    "machine learning",
+    "patterns",
+    "from data"
+   ],
+   [
+    "deep learning",
+    "neural",
+    "layers"
+   ],
+   [
+    "generative",
+    "new content",
+    "creates"
+   ],
+   [
+    "example"
+   ]
+  ]
+ },
+ {
+  "id": "x28",
+  "section": "ess",
+  "marks": 6,
+  "lesson": "2-1",
+  "level": "hard",
+  "type": "theory",
+  "q": "Why does HTTPS use two different kinds of cryptography instead of just one? Keep your answer simple and mention speed.",
+  "answer": "Public-key cryptography solves the problem of agreeing on a secret over an open network, because the browser can lock the common key with the server's public key and only the server's private key can open it, so an eavesdropper who captures the message learns nothing. However, public-key cryptography is heavy and slow, so using it for every byte of a page would make browsing uncomfortable. Common-key cryptography uses the same key on both sides and is much faster, but on its own it cannot deliver that key safely across the Internet. HTTPS therefore uses each one for what it is good at: public-key cryptography once, to share the key safely, and common-key cryptography afterwards, to move the data quickly, which gives both security and speed.",
+  "keys": [
+   [
+    "public-key",
+    "public key"
+   ],
+   [
+    "share",
+    "exchange the key",
+    "deliver the key",
+    "safely"
+   ],
+   [
+    "common-key",
+    "common key",
+    "same key"
+   ],
+   [
+    "fast",
+    "faster",
+    "slow",
+    "speed"
+   ],
+   [
+    "both",
+    "security and speed",
+    "division",
+    "each"
+   ]
+  ]
+ },
+ {
+  "id": "x29",
+  "section": "ess",
+  "marks": 6,
+  "lesson": "2-2",
+  "level": "hard",
+  "type": "theory",
+  "q": "What does zero trust mean, and why was it needed? Explain in simple words.",
+  "answer": "Zero trust means that no request is trusted just because of where it comes from, so every access is verified every time, including access that comes from inside the organisation's own network. In practice the system checks who is asking, usually with multi-factor authentication, checks the device, and checks whether that person is allowed to reach that particular resource. It was needed because the old design assumed that inside was safe and outside was dangerous, and that assumption stopped being true when organisations moved data to cloud services and staff began working from home, so there is no longer a clear line between inside and outside to defend.",
+  "keys": [
+   [
+    "not trust",
+    "never trust",
+    "no trust",
+    "does not trust"
+   ],
+   [
+    "verify",
+    "check",
+    "every time",
+    "identity"
+   ],
+   [
+    "inside",
+    "internal"
+   ],
+   [
+    "cloud",
+    "remote work",
+    "boundary",
+    "perimeter",
+    "blurred",
+    "no longer"
+   ]
+  ]
+ },
+ {
+  "id": "x30",
+  "section": "ess",
+  "marks": 6,
+  "lesson": "comp",
+  "level": "extreme",
+  "type": "theory",
+  "q": "A hospital uses an AI that reads CT scans, keeps patient records in the cloud, and lets doctors work from home. Using both chapters, write about: what kind of AI this is, two security measures the hospital needs, and who is responsible for a wrong diagnosis.",
+  "answer": "The AI is a machine learning system, and more precisely deep learning, because reading medical images depends on a neural network of many layers that learns patterns from a large set of scans already labelled by specialists, so the quality and representativeness of that training data decide how well it works. For security, the hospital first needs strong authentication under zero trust, so every doctor signs in with multi-factor authentication, such as a password plus a code on a registered device, and permissions are checked on every access, since records now live in the cloud and staff connect from home and there is no safe inside any more. Second, it needs layered protection of the path and the devices, which means an encrypted connection using HTTPS or a VPN so records cannot be read on a home network, a firewall and a DMZ so that any public-facing server is separated from the record system, and managed endpoints with antivirus and up-to-date operating systems. It should also prepare an incident response plan in advance, because preparation is the first stage, and prioritise risks by impact multiplied by likelihood, where a leak of patient data scores high on both. Responsibility for a wrong diagnosis stays with the doctor and the hospital, because the system produces a suggestion with a probability and can be confidently wrong on an unusual case, so a named person must weigh it against the patient's history, be able to explain the decision and answer for it, which is the principle of accountability, while the developer remains answerable for technical faults in the system.",
+  "keys": [
+   [
+    "machine learning",
+    "deep learning",
+    "neural"
+   ],
+   [
+    "training data",
+    "labelled",
+    "learns from"
+   ],
+   [
+    "multi-factor",
+    "mfa",
+    "zero trust",
+    "verify every"
+   ],
+   [
+    "vpn",
+    "https",
+    "encrypt",
+    "firewall",
+    "dmz",
+    "antivirus",
+    "endpoint"
+   ],
+   [
+    "doctor",
+    "human",
+    "hospital",
+    "account",
+    "responsib"
+   ],
+   [
+    "probability",
+    "suggestion",
+    "can be wrong",
+    "not certain",
+    "explain"
+   ]
+  ]
+ },
+ {
+  "id": "x41",
+  "section": "ess",
+  "marks": 6,
+  "lesson": "comp",
+  "level": "extreme",
+  "type": "theory",
+  "q": "A small company is attacked by ransomware: the files are encrypted and a payment is demanded. In simple words, write what the company should do step by step, and two things it should have done before the attack.",
+  "answer": "The first step is preparation already in place, but once the attack is discovered the company should detect and confirm the scope, which means finding which computers and shared folders are affected. Then it should contain the damage by disconnecting the infected machines from the network so the malware stops spreading to other devices and backups. Then it should eradicate the cause by removing the malware, closing the weakness that let it in, and resetting any account that may have been stolen. Only after that should it recover, by restoring the files from a clean backup that was kept offline and checking that the systems work correctly, and paying the attacker is not a solution because there is no guarantee and it encourages more attacks. Finally it should prevent recurrence by studying how the attack happened and adding measures. Two things it should have done before the attack are keeping regular backups that are stored offline or separately and tested by trial restores, and protecting accounts with multi-factor authentication together with staff training on suspicious email and up-to-date systems.",
+  "keys": [
+   [
+    "detect",
+    "confirm",
+    "scope",
+    "which machines"
+   ],
+   [
+    "contain",
+    "disconnect",
+    "isolate",
+    "stop spreading"
+   ],
+   [
+    "eradicat",
+    "remove",
+    "malware",
+    "patch",
+    "reset"
+   ],
+   [
+    "recover",
+    "restore",
+    "backup"
+   ],
+   [
+    "prevent",
+    "recurrence",
+    "analyse",
+    "report"
+   ],
+   [
+    "before",
+    "backup",
+    "offline",
+    "tested",
+    "mfa",
+    "training",
+    "update"
+   ]
+  ]
+ }
+]
